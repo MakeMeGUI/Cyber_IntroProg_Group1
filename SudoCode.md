@@ -1,0 +1,12 @@
+START
+
+WHILE
+DISPLAY "Enter Pin"
+GET PIN
+
+IF PIN IS "1234"
+    DISPLAY balance
+ELSE
+    DISPLAY "Try Again"
+END IF
+END WHILE   
